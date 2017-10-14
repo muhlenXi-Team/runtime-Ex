@@ -8,6 +8,7 @@
 
 #import <Foundation/Foundation.h>
 #import "Person.h"
+#import "Person+Associated.h"
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
@@ -19,14 +20,22 @@ int main(int argc, const char * argv[]) {
         cang.age = 18;
         [cang setValue:@"老师" forKey:@"occupation"];
         
+        // category 关联属性
+        cang.associatedBust = @90;
+        cang.associatedCallBack = ^(){
+            NSLog(@"苍老师要写代码了！");
+        };
+        
+        cang.associatedCallBack();
+        
         NSDictionary *propertyDic = [cang allProperties];
-        NSLog(@"%@", propertyDic);
+        NSLog(@"propertyDic == %@", propertyDic);
         
         NSDictionary *ivarDic = [cang allIvars];
-        NSLog(@"%@",ivarDic);
+        NSLog(@"ivarDic == %@",ivarDic);
         
         NSDictionary *methodDic = [cang allMethods];
-        NSLog(@"%@",methodDic);
+        NSLog(@"methodDic == %@",methodDic);
     }
     return 0;
 }
