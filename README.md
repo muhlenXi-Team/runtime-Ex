@@ -18,25 +18,25 @@ IMP ，编译器生成的函数指针，指向要执行的代码入口。
 
 *如何获取对象所有的属性名称和属性值、获取对象所有成员变量名称和变量值、获取对象所有的方法名和方法参数数量。*
 
-[demo2 传送门](https://github.com/YinjunXi/runtime-Ex/tree/master/Person)
+[demo2 传送门](https://github.com/Code-apes/runtime-Ex/tree/master/GetInfo)
 
 ### Task3：
 
 *通过 Category 和 Associated objects 添加属性。*
 
-[demo3 传送门](https://github.com/YinjunXi/runtime-Ex/tree/master/Person)
+[demo3 传送门](https://github.com/Code-apes/runtime-Ex/tree/master/AssociateObject)
 
 ### Task4:
 
 *对象的 归档 和 解档。*
 
-[demo4 传送门](https://github.com/YinjunXi/runtime-Ex/tree/master/People)
+[demo4 传送门](https://github.com/Code-apes/runtime-Ex/tree/master/Archiver)
 
 ### Task5:
 
 *Json 和 Model 互转。*
 
-[demo5 传送门](https://github.com/YinjunXi/runtime-Ex/tree/master/People)
+[demo5 传送门](https://github.com/Code-apes/runtime-Ex/tree/master/JsonModel)
 
 ### Task6:
 
@@ -44,18 +44,18 @@ IMP ，编译器生成的函数指针，指向要执行的代码入口。
 
 1、Person 类只声明 sing 方法，为添加 sing 方法的实现。
 
-动态添加方法 [demo6 传送门]()
+动态添加方法 [demo6 传送门](https://github.com/Code-apes/runtime-Ex/tree/master/MsgForwarding1)
 
 2、Teacher 类只声明 sing 方法，未实现。Bird 类声明并实现了 sing 方法。
 
-指定备选对象 Bird 响应 [demo7 传送门]()
+指定备选对象 Bird 响应 [demo7 传送门](https://github.com/Code-apes/runtime-Ex/tree/master/MsgForwarding2)
 
 3、
 
 4-1、Bird 类未实现 sing 方法。 Person 类声明并实现了 sing 方法。
 
-修改调用对象 [demo8 传送门]()
+修改调用对象 [demo8 传送门](https://github.com/Code-apes/runtime-Ex/tree/master/MsgForwarding41)
 
 4-2、Person 类只声明 sing 方法，但实现了 dance 方法。
 
-修改调用方法 [demo9 传送门]()
+修改调用方法 [demo9 传送门](https://github.com/Code-apes/runtime-Ex/tree/master/MsgForwarding42)
