@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:Person.xcodeproj">
+      location = "self:MsgForwarding42.xcodeproj">
    </FileRef>
 </Workspace>

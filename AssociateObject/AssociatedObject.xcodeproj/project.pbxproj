@@ -27,7 +27,7 @@
 /* Begin PBXFileReference section */
 		C847AE571F9241B20038B1A5 /* Person+Associated.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Person+Associated.h"; sourceTree = "<group>"; };
 		C847AE581F9241B20038B1A5 /* Person+Associated.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Person+Associated.m"; sourceTree = "<group>"; };
-		DDD231261F9068DA00CD2ABC /* Person */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Person; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDD231261F9068DA00CD2ABC /* AssociatedObject */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = AssociatedObject; sourceTree = BUILT_PRODUCTS_DIR; };
 		DDD231291F9068DA00CD2ABC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		DDD231301F90691100CD2ABC /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
 		DDD231311F90691100CD2ABC /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
@@ -55,7 +55,7 @@
 		DDD231271F9068DA00CD2ABC /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				DDD231261F9068DA00CD2ABC /* Person */,
+				DDD231261F9068DA00CD2ABC /* AssociatedObject */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -75,9 +75,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		DDD231251F9068DA00CD2ABC /* Person */ = {
+		DDD231251F9068DA00CD2ABC /* AssociatedObject */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DDD2312D1F9068DA00CD2ABC /* Build configuration list for PBXNativeTarget "Person" */;
+			buildConfigurationList = DDD2312D1F9068DA00CD2ABC /* Build configuration list for PBXNativeTarget "AssociatedObject" */;
 			buildPhases = (
 				DDD231221F9068DA00CD2ABC /* Sources */,
 				DDD231231F9068DA00CD2ABC /* Frameworks */,
@@ -87,9 +87,9 @@
 			);
 			dependencies = (
 			);
-			name = Person;
+			name = AssociatedObject;
 			productName = Person;
-			productReference = DDD231261F9068DA00CD2ABC /* Person */;
+			productReference = DDD231261F9068DA00CD2ABC /* AssociatedObject */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -107,7 +107,7 @@
 					};
 				};
 			};
-			buildConfigurationList = DDD231211F9068DA00CD2ABC /* Build configuration list for PBXProject "Person" */;
+			buildConfigurationList = DDD231211F9068DA00CD2ABC /* Build configuration list for PBXProject "AssociatedObject" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -119,7 +119,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				DDD231251F9068DA00CD2ABC /* Person */,
+				DDD231251F9068DA00CD2ABC /* AssociatedObject */,
 			);
 		};
 /* End PBXProject section */
@@ -262,7 +262,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		DDD231211F9068DA00CD2ABC /* Build configuration list for PBXProject "Person" */ = {
+		DDD231211F9068DA00CD2ABC /* Build configuration list for PBXProject "AssociatedObject" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DDD2312B1F9068DA00CD2ABC /* Debug */,
@@ -271,7 +271,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DDD2312D1F9068DA00CD2ABC /* Build configuration list for PBXNativeTarget "Person" */ = {
+		DDD2312D1F9068DA00CD2ABC /* Build configuration list for PBXNativeTarget "AssociatedObject" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DDD2312E1F9068DA00CD2ABC /* Debug */,

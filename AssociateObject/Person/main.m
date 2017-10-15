@@ -18,7 +18,8 @@ int main(int argc, const char * argv[]) {
         Person *cang = [[Person alloc] init];
         cang.name = @"苍井空";
         cang.age = 18;
-        [cang setValue:@"老师" forKey:@"occupation"];
+        cang.occupation = @"老师";
+        cang.nationality = @"日本";
         
         // category 关联属性
         cang.associatedBust = @90;
@@ -28,14 +29,8 @@ int main(int argc, const char * argv[]) {
         
         cang.associatedCallBack();
         
-        NSDictionary *propertyDic = [cang allProperties];
-        NSLog(@"propertyDic == %@", propertyDic);
+        NSLog(@"bust == %@",cang.associatedBust);
         
-        NSDictionary *ivarDic = [cang allIvars];
-        NSLog(@"ivarDic == %@",ivarDic);
-        
-        NSDictionary *methodDic = [cang allMethods];
-        NSLog(@"methodDic == %@",methodDic);
     }
     return 0;
 }

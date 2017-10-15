@@ -31,3 +31,31 @@ IMP ，编译器生成的函数指针，指向要执行的代码入口。
 *对象的 归档 和 解档。*
 
 [demo4 传送门](https://github.com/YinjunXi/runtime-Ex/tree/master/People)
+
+### Task5:
+
+*Json 和 Model 互转。*
+
+[demo5 传送门](https://github.com/YinjunXi/runtime-Ex/tree/master/People)
+
+### Task6:
+
+*验证消息转发流程*
+
+1、Person 类只声明 sing 方法，为添加 sing 方法的实现。
+
+动态添加方法 [demo6 传送门]()
+
+2、Teacher 类只声明 sing 方法，未实现。Bird 类声明并实现了 sing 方法。
+
+指定备选对象 Bird 响应 [demo7 传送门]()
+
+3、
+
+4-1、Bird 类未实现 sing 方法。 Person 类声明并实现了 sing 方法。
+
+修改调用对象 [demo8 传送门]()
+
+4-2、Person 类只声明 sing 方法，但实现了 dance 方法。
+
+修改调用方法 [demo9 传送门]()

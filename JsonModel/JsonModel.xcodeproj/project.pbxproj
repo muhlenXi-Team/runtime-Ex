@@ -24,7 +24,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		C847AE631F92474A0038B1A5 /* People */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = People; sourceTree = BUILT_PRODUCTS_DIR; };
+		C847AE631F92474A0038B1A5 /* JsonModel */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = JsonModel; sourceTree = BUILT_PRODUCTS_DIR; };
 		C847AE661F92474A0038B1A5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C847AE6D1F92476D0038B1A5 /* People.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = People.h; sourceTree = "<group>"; };
 		C847AE6E1F92476D0038B1A5 /* People.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = People.m; sourceTree = "<group>"; };
@@ -52,7 +52,7 @@
 		C847AE641F92474A0038B1A5 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C847AE631F92474A0038B1A5 /* People */,
+				C847AE631F92474A0038B1A5 /* JsonModel */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -70,9 +70,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		C847AE621F92474A0038B1A5 /* People */ = {
+		C847AE621F92474A0038B1A5 /* JsonModel */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C847AE6A1F92474A0038B1A5 /* Build configuration list for PBXNativeTarget "People" */;
+			buildConfigurationList = C847AE6A1F92474A0038B1A5 /* Build configuration list for PBXNativeTarget "JsonModel" */;
 			buildPhases = (
 				C847AE5F1F92474A0038B1A5 /* Sources */,
 				C847AE601F92474A0038B1A5 /* Frameworks */,
@@ -82,9 +82,9 @@
 			);
 			dependencies = (
 			);
-			name = People;
+			name = JsonModel;
 			productName = People;
-			productReference = C847AE631F92474A0038B1A5 /* People */;
+			productReference = C847AE631F92474A0038B1A5 /* JsonModel */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -102,7 +102,7 @@
 					};
 				};
 			};
-			buildConfigurationList = C847AE5E1F92474A0038B1A5 /* Build configuration list for PBXProject "People" */;
+			buildConfigurationList = C847AE5E1F92474A0038B1A5 /* Build configuration list for PBXProject "JsonModel" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -114,7 +114,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C847AE621F92474A0038B1A5 /* People */,
+				C847AE621F92474A0038B1A5 /* JsonModel */,
 			);
 		};
 /* End PBXProject section */
@@ -256,7 +256,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		C847AE5E1F92474A0038B1A5 /* Build configuration list for PBXProject "People" */ = {
+		C847AE5E1F92474A0038B1A5 /* Build configuration list for PBXProject "JsonModel" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C847AE681F92474A0038B1A5 /* Debug */,
@@ -265,7 +265,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C847AE6A1F92474A0038B1A5 /* Build configuration list for PBXNativeTarget "People" */ = {
+		C847AE6A1F92474A0038B1A5 /* Build configuration list for PBXNativeTarget "JsonModel" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C847AE6B1F92474A0038B1A5 /* Debug */,
